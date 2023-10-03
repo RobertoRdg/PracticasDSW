@@ -1,0 +1,57 @@
+* /*modifica todo la pagina*/
+{
+    border-radius: 5px;/*sirve para poner radio a las esquinas de los bordes*/
+    padding: 0; /*para que no haya espacios en blanco al rededor de la pagina*/
+    margin: 0; /*para que no haya espacios en blanco al rededor de la pagina*/
+}
+#contenedor{/* contenedor para poder manejar el margin de todo junto */
+    margin: 10px; /*margen de todos los contenedores*/
+}
+header{
+    border: 1px solid black; /*border del contenedor*/
+    height: 225px; /*altura del contenedor*/
+    background: greenyellow;/*color del conteneder*/
+  }
+  nav{
+    border: 1px solid black;/*border del contenedor*/
+    margin-top: 65px; /*margen superior*/
+    margin-left: 20px; /*margen izquierdo*/
+    margin-right: 50px; /*margen derecho*/
+    height: 120px;/*altura del contenedor*/
+    background: yellowgreen;/*color del conteneder*/
+  }
+  aside{
+    margin-top: 10px; /*margen superior*/
+    border: 1px solid black;/*border del contenedor*/
+    height: 400px;/*altura del contenedor*/
+    width: 50%; /*anchura en porcentaje del contenedor*/
+    background: greenyellow;/*color del conteneder*/
+  }
+  section{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;/*border del contenedor*/
+    height: 400px;/*altura del contenedor*/
+    width: 50%;/*anchura en porcentaje del contenedor*/
+    background: greenyellow;/*color del conteneder*/
+  }
+  article{
+    border: 1px solid black;/*border del contenedor*/
+    height: 120px;/*altura del contenedor*/
+    margin: 20px; /*margen general del contenedor*/
+    margin-right: 40px; /*margen derecho*/
+    background: yellowgreen;/*color del conteneder*/
+  }
+  #article1{
+    margin-top: 70px; /*margen superior solo del article1*/
+  }
+  footer{
+    margin-top: 15px; /*margen superior*/
+    border: 1px solid black;/*border del contenedor*/
+    background: greenyellow;/*color del conteneder*/
+    height: 120px;/*altura del contenedor*/
+  }
+  #contenedor2{ /* contenedor2 para poder juntar el aside y section en una sola linea */
+    display: flex; /*para que los elementos dentro del contenedor2 se puedan juntar y estar en una sola linea*/
+    margin: 5px;/*margen general para el contenedor donde esta el aside, section y los articles*/
+  }
