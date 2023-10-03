@@ -1,0 +1,52 @@
+
+.box {
+    width: 20em;
+    height: 10ex;
+    background-color: greenyellow;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.box p {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    font-size: 16px;
+}
+
+.box1 {
+    width: 50vw;
+    height: 50vh;
+    background-color: pink;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.vmin-box {
+    width: 20vmin;
+    height: 20vmin;
+    background-color: powderblue;
+}
+
+.vmax-box {
+    width: 80vmax;
+    height: 80vmax;
+    background-color: yellow;
+}
+
+.box1 p {
+    margin: 0;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
