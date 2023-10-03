@@ -1,0 +1,44 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+header, nav, footer
+{
+  margin-block: 20px;
+  width: 100%;
+}
+header
+{
+  height: 100px;
+  background: greenyellow;
+}
+nav
+{
+  height: 100px;
+  background: greenyellow;
+}
+article
+  {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: skyblue;
+  }
+aside
+  {
+    width: 300%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: yellow;
+  }
+  aside,section
+  {
+    height: 570px;
+    display: flex;
+  }
+footer
+  {
+    height: 100px;
+    background: plum;
+  }
