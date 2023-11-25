@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="7maravillas.css">
+    <title>7 MARAVILLAS DEL MUNDO</title>
+</head>
+<body>
+    <header>7 MARAVILLAS DEL MUNDO</header> <!--pequeña barra de texto al principio de la pagina-->
+    <h1>¿Que Maravilla del mundo es?</h1><!--primer titulo de la pagina-->
+
+    <!-- Pantalla inicial -->
+    <div id="pantalla-inicial"> <!--primer contenedor para la primera interfaz de la pagina-->
+        <p>¿A que maravilla pertenece la imagen?</p> <!--subtitulo de la pagina principal -->
+        <button class="btn" onclick="comenzarJuego()">JUGAR</button><br><br><!--boton para empezar a jugar-->
+        <button class="btn" onclick="location.href='juego.html';">HARRY POTTER</button>
+    </div>
+
+    <!-- Pantalla juego -->
+    <div class="pantalla-juego" id="pantalla-juego"><!--segundo contenedor donde se mostrara la segunda interfaz de la pagina-->
+        <img src="img/chichen-itza.svg" alt="" id="imgMaravilla" height="300px" width="300px"><!--imagenes-->
+        <div class="opciones"><!--lista de opciones para las preguntas del juego-->
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)"><!--primera opcion-->
+                <div class="letra" id="l0">A</div>
+                <div class="nombre" id="n0">OPCION A</div>
+            </div>
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)"><!--segunda opcion-->
+                <div class="letra" id="l1">B</div>
+                <div class="nombre" id="n1">OPCION B</div>
+            </div>
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)"><!--tercera opcion-->
+                <div class="letra" id="l2">C</div>
+                <div class="nombre" id="n2">OPCION C</div>
+            </div>
+        </div>
+    </div>
+    <!-- Pantalla final -->
+    <div id="pantalla-final"><!--tercer contenedor que mandara a llamar la tercera y ultima interfaz de la pagina-->
+        <h2>CORRECTAS: <span id="numCorrectas">3</span></h2><!--numero de respuestas correctas-->
+        <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2><!--numero de respuestas incorrectas-->
+        <button class="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button><!--boton para regresar al inicio-->
+    </div>
+
+    <footer>7 MARAVILLAS DEL MUNDO</footer><!--pequeña barra de texto al final de la pagina-->
+    
+    <script src="7maravillas.js"></script>
+</body>
+</html>
